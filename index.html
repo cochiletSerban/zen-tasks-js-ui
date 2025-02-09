@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- js -->
+
+    <!-- css reset -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- inter and roboto fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/helper-classes.css" />
+
+    <script type="module" src="js/main.js" defer></script>
+
+    <title>ZenTasks</title>
+  </head>
+
+  <body>
+    <img src="img/round-logo.png" alt="" srcset="" />
+
+    <!-- font demo classes -->
+
+    <p class="font-nav-title">
+      <span class="color-text-primary">Zen</span>Tasks
+    </p>
+
+    <p class="font-todo-card-title">Zen Task #1</p>
+
+    <p class="font-todo-card-date color-text-todo-card-date">
+      Added on: 24 nov 2322
+    </p>
+
+    <p class="font-project-card-description">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illo
+      laboriosam eligendi non laudantium inventore vero sint officiis amet,
+      consectetur quam veniam est! Architecto veniam quos nesciunt recusandae ea
+      dolorum!
+    </p>
+
+    <!-- color pallete demo -->
+    <div
+      style="
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--global-card-padding);
+        margin-bottom: var(--global-card-padding);
+      "
+    >
+      <div
+        style="
+          width: 100px;
+          height: 100px;
+          background-color: var(--primary-color);
+        "
+      ></div>
+      <div
+        style="
+          width: 100px;
+          height: 100px;
+          background-color: var(--primary-selected);
+        "
+      ></div>
+      <div
+        style="
+          width: 100px;
+          height: 100px;
+          background-color: var(--nav-or-card-border);
+        "
+      ></div>
+      <div
+        style="
+          width: 100px;
+          height: 100px;
+          background-color: var(--nav-or-card-bg);
+        "
+      ></div>
+      <div
+        style="
+          width: 100px;
+          height: 100px;
+          background-color: var(--nav-text-accent);
+        "
+      ></div>
+      <div
+        style="
+          width: 100px;
+          height: 100px;
+          background-color: var(--todo-card-subhead);
+        "
+      ></div>
+      <div
+        style="
+          width: 100px;
+          height: 100px;
+          background-color: var(--todo-card-date);
+        "
+      ></div>
+      <div
+        style="
+          width: 100px;
+          height: 100px;
+          background-color: var(--project-bg-teal);
+        "
+      ></div>
+      <div
+        style="
+          width: 100px;
+          height: 100px;
+          background-color: var(--project-title-text);
+        "
+      ></div>
+      <div
+        style="
+          width: 100px;
+          height: 100px;
+          background-color: var(--project-subhead-text);
+        "
+      ></div>
+    </div>
+
+    <div
+      id="changeMe"
+      class="color-bg-project-bg-teal"
+      style="
+        width: 200px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        margin-bottom: var(--global-card-padding);
+        user-select: none;
+        border-radius: var(--global-border-radius);
+        cursor: pointer;
+      "
+    >
+      Click Me!
+    </div>
+
+    <img id="dogoImage" />
+  </body>
+</html>

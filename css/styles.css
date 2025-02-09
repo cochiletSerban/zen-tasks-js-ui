@@ -1,0 +1,57 @@
+/* css vars */
+:root {
+  /* colors */
+  --primary-color: #ff6767;
+  --primary-selected: #ff8585;
+
+  /* nav-bar */
+  --nav-or-card-border: #d9d9d9;
+  --nav-or-card-bg: #f8f8f8;
+  --nav-text-accent: #3abeff;
+
+  /* todo card */
+  --todo-card-subhead: #49454f;
+  --todo-card-date: #b7b3ba;
+
+  /*  project */
+  --project-bg-teal: #5c8f8f;
+  --project-title-text: #f4f4f4;
+  --project-subhead-text: #c2d8d8;
+
+  /* font-sizes */
+
+  --body-large-size: 26px;
+  --body-medium-size: 24px;
+  --label-small-size: 22px;
+
+  /* global vars */
+  --global-border-radius: 8px;
+  --global-card-padding: 22px;
+  --global-vertical-card-gap: 30px;
+  --global-horizontal-card-gap: 22px;
+
+  /* nav-bar */
+  --nav-horizontal-padding: 65px;
+  --nav-bar-margin-bottom: 60px;
+
+  /* side-menu */
+  --side-menu-button-vertical-margin: 10px;
+
+  /* project */
+  --project-card-padding: 5px;
+
+  /* todo card */
+  --todo-card-vertical-padding: 5px;
+  --todo-card-horizontal-padding: 15px;
+}
+
+/* default font family & size */
+html {
+  font-size: var(--label-small-size);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* add you custom css here using BEM naming */

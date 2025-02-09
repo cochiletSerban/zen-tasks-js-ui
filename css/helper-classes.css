@@ -1,0 +1,144 @@
+/* font classes */
+.font-nav-title {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+
+.font-side-menu-button {
+  font-size: var(--body-large-size);
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+.font-todo-card-title {
+  font-size: var(--body-large-size);
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.font-todo-card-subhead {
+  font-size: var(--body-medium-size);
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.font-todo-card-date {
+  font-size: var(--label-small-size);
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.font-todo-card-description {
+  font-size: var(--body-medium-size);
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.font-project-card-title {
+  font-size: var(--body-medium-size);
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.font-project-card-subhead {
+  font-size: var(--body-medium-size);
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.font-project-card-description {
+  font-size: var(--label-small-size);
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.font-nav-date {
+  font-size: var(--body-medium-size);
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+/* color-clases */
+
+/* Background color classes */
+.color-bg-primary {
+  background-color: var(--primary-color);
+}
+
+.color-bg-primary-selected {
+  background-color: var(--primary-selected);
+}
+
+.color-bg-nav-or-card-border {
+  background-color: var(--nav-or-card-border);
+}
+
+.color-bg-nav-or-card-bg {
+  background-color: var(--nav-or-card-bg);
+}
+
+.color-bg-nav-text-accent {
+  background-color: var(--nav-text-accent);
+}
+
+.color-bg-todo-card-subhead {
+  background-color: var(--todo-card-subhead);
+}
+
+.color-bg-todo-card-date {
+  background-color: var(--todo-card-date);
+}
+
+.color-bg-project-bg-teal {
+  background-color: var(--project-bg-teal);
+}
+
+.color-bg-project-title-text {
+  background-color: var(--project-title-text);
+}
+
+.color-bg-project-subhead-text {
+  background-color: var(--project-subhead-text);
+}
+
+/* Text color classes */
+.color-text-primary {
+  color: var(--primary-color);
+}
+
+.color-text-primary-selected {
+  color: var(--primary-selected);
+}
+
+.color-text-nav-or-card-border {
+  color: var(--nav-or-card-border);
+}
+
+.color-text-nav-or-card-bg {
+  color: var(--nav-or-card-bg);
+}
+
+.color-text-nav-text-accent {
+  color: var(--nav-text-accent);
+}
+
+.color-text-todo-card-subhead {
+  color: var(--todo-card-subhead);
+}
+
+.color-text-todo-card-date {
+  color: var(--todo-card-date);
+}
+
+.color-text-project-bg-teal {
+  color: var(--project-bg-teal);
+}
+
+.color-text-project-title-text {
+  color: var(--project-title-text);
+}
+
+.color-text-project-subhead-text {
+  color: var(--project-subhead-text);
+}
